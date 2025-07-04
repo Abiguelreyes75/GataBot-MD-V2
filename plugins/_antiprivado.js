@@ -1,4 +1,4 @@
-import ws from 'ws';
+/*import ws from 'ws';
 const comandos = /piedra|papel|tijera|estado|verificar|code|jadibot --code|--code|creadora|bottemporal|grupos|instalarbot|términos|bots|deletebot|eliminarsesion|serbot|verify|register|registrar|reg|reg1|nombre|name|nombre2|name2|edad|age|edad2|age2|genero|género|gender|identidad|pasatiempo|hobby|identify|finalizar|pas2|pas3|pas4|pas5|registroc|deletesesion|registror|jadibot/i
 
 export async function before(m, { conn, isAdmin, isBotAdmin, isOwner, isROwner }) {
@@ -11,17 +11,17 @@ let prefixRegex = new RegExp('^[' + setting.prefix.replace(/[|\\{}()[\]^$+*.\-\^
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 const participants = m.isGroup ? (await conn.groupMetadata(m.chat).catch(() => ({ participants: [] }))).participants : []
 let numBot = conn.user.lid.replace(/:.*/, '')
-let numBot2 = global.conn.user.lid.replace(/:.*/, '')
-const detectwhat = m.sender.includes('@lid') ? `${numBot2}@lid` : global.conn.user.jid;
-const detectwhat2 = m.sender.includes('@lid') ? `${numBot}@lid` : conn.user.jid;
+//let numBot2 = global.conn.user.lid.replace(/:.*/, '')
+//const detectwhat = m.sender.includes('@lid') ? `${numBot2}@lid` : global.conn.user.jid;
+//const detectwhat2 = m.sender.includes('@lid') ? `${numBot}@lid` : conn.user.jid;
 
-const mainBotInGroup = participants.some(p => p.id === detectwhat);
-const primaryBot = chat.primaryBot;
-const primaryBotConnected = users.some(conn => detectwhat2 === primaryBot);
-const primaryBotInGroup = participants.some(p => p.id === primaryBot);
+//const mainBotInGroup = participants.some(p => p.id === detectwhat);
+//const primaryBot = chat.primaryBot;
+//const primaryBotConnected = users.some(conn => detectwhat2 === primaryBot);
+//const primaryBotInGroup = participants.some(p => p.id === primaryBot);
 
 //contando de mensaje 
-if (!global.db.data.users[m.sender]) global.db.data.users[m.sender] = {};
+/*if (!global.db.data.users[m.sender]) global.db.data.users[m.sender] = {};
 if (!global.db.data.users[m.sender].mensaje) global.db.data.users[m.sender].mensaje = {};
 if (!global.db.data.users[m.sender].mensaje[m.chat]) global.db.data.users[m.sender].mensaje[m.chat] = 0;
 global.db.data.users[m.sender].mensaje[m.chat]++;
@@ -67,3 +67,4 @@ let usedPrefix = m.text.match(prefixRegex)[0]
 let command = m.text.slice(usedPrefix.length).trim().split(' ')[0]
 }
 }
+*/
