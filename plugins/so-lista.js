@@ -80,7 +80,7 @@ const audioMap = [
     { regex: /(YOSHI|Yoshi|YoShi|yoshi)/gi, url: 'https://qu.ax/ZgKT.mp3' },
     { regex: /(Verdad que te engañe|verdad que te engañe|verdad que|Verdad que)/gi, url: 'https://qu.ax/yTid.mp3' },
     { regex: /(vivan|vivan los novios|vivanlosnovios)/gi, url: 'https://qu.ax/vHX.mp3' },
-    { regex: /(Yamete|yamete|Yamete kudasai|yamete kudasai)/gi, url: 'https://qu.ax/thgS.mp3' },
+    { regex: /(Yamete|yamete|Yamete kudasai|yamete kudasai)/gi, url: 'https://qu.ax/deFuR.mp3' },
     { regex: /(Usted esta detenido|usted esta detenido|usted está detenido|Usted está detenido)/gi, url: 'https://qu.ax/UWqX.mp3' },
     { regex: /(una pregunta|pregunton|preguntona)/gi, url: 'https://qu.ax/NHOM.mp3' },
     { regex: /(oye|🐔|Chiste)/gi, url: 'https://qu.ax/MSiQ.mp3' },
