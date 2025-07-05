@@ -13,6 +13,7 @@ const audioMap = [
     { regex: /^Puerco|puerco|asi te queria hagarrar$/i, url: 'https://qu.ax/SJYuv.mp3'},
     { regex: /^Chupame|Pingo|Qliao$/i, url: 'https://qu.ax/SCpi.mp3' },
     { regex: /^ara ara$/i, url: 'https://qu.ax/PPgt.mp3' },
+     { regex: /^es lo mas estupido$/i, url: 'https://qu.ax/AipOv.mp3' },
     { regex: /(bienvenido|bienvenid@)/gi, url: 'https://qu.ax/cUYg.mp3' },
     { regex: /^Blackpink in your area$/i, url: 'https://qu.ax/pavq.mp3' },
     { regex: /^Buen día grupo|Buen dia grupo$/i, url: 'https://qu.ax/GoKq.mp3' },
