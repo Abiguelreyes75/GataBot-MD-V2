@@ -10,7 +10,7 @@ if (!db.data.chats[m.chat].audios) return
 
 const audioMap = [
     { regex: /^A Bueno master|Bueno master|Bueno Máster|🫂$/i, url: 'https://qu.ax/xynz.mp3' },
-    { regex: /^Puerco|puerco|asi te queria hagarrar$/i, url 'https://qu.ax/SJYuv.mp3'},
+    { regex: /^Puerco|puerco|asi te queria hagarrar$/i, url: 'https://qu.ax/SJYuv.mp3'},
     { regex: /^Chupame|Pingo|Qliao$/i, url: 'https://qu.ax/SCpi.mp3' },
     { regex: /^ara ara$/i, url: 'https://qu.ax/PPgt.mp3' },
     { regex: /(bienvenido|bienvenid@)/gi, url: 'https://qu.ax/cUYg.mp3' },
